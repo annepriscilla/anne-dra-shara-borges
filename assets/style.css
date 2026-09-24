@@ -369,3 +369,13 @@
   /* menu mais compacto em telas médias */
   @media (max-width: 1240px) { .nav-links { gap: 20px; } .nav-links a { letter-spacing: 1.1px; font-size: 12px; } .nav-cta { margin-left: 18px; } }
   @media (max-width: 1020px) { .nav-links a[href="#duvidas"] { display: none; } }
+
+  /* botão flutuante do WhatsApp pulsando */
+  .whats-float { animation: pulso-whats 2.2s ease-out infinite; }
+  @keyframes pulso-whats {
+    0%   { box-shadow: 0 12px 26px -8px rgba(165,129,63,0.6), 0 0 0 0 rgba(201,168,106,0.6); }
+    70%  { box-shadow: 0 12px 26px -8px rgba(165,129,63,0.6), 0 0 0 26px rgba(201,168,106,0); }
+    100% { box-shadow: 0 12px 26px -8px rgba(165,129,63,0.6), 0 0 0 0 rgba(201,168,106,0); }
+  }
+  .whats-float:hover { animation-play-state: paused; }
+  @media (prefers-reduced-motion: reduce) { .whats-float { animation: none; } }

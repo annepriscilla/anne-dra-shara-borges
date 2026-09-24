@@ -379,3 +379,39 @@
   }
   .whats-float:hover { animation-play-state: paused; }
   @media (prefers-reduced-motion: reduce) { .whats-float { animation: none; } }
+
+  /* legibilidade: textos secundários maiores, mais escuros e menos finos */
+  :root { --text-soft: #6F5358; }
+  body { font-weight: 400; }
+  .section-label { font-size: 12.5px; }
+  .section-intro { font-size: 18px; color: var(--text-soft); }
+  .trust p { font-size: 16.5px; color: var(--text-soft); }
+  .servico h3 { font-size: 20px; }
+  .servico p { font-size: 16px; color: var(--text-soft); }
+  .hero-local { font-size: 14.5px; color: rgba(251,244,239,0.8); }
+  .resultados-nota { font-size: 14.5px; }
+  .faq details p { font-size: 17px; }
+  .faq summary { font-size: 21px; }
+  .horarios li { font-size: 16.5px; }
+  .local-info p { font-size: 16.5px; color: var(--text-soft); }
+  .nota-legal { font-size: 14.5px !important; }
+  .rcard figcaption span { font-size: 12.5px; }
+  .reviews-head { font-size: 15.5px; }
+  .sobre-text p { font-size: 18px; }
+  .cta-mid-inner p, .google-review p:not(.rating) { font-size: 17.5px; color: var(--text-soft); }
+  .cta-final p { font-size: 17.5px; color: rgba(251,244,239,0.88); }
+  .prose p { font-size: 18px; }
+  .checklist li { font-size: 17px; }
+  footer p { font-size: 14px; color: rgba(251,244,239,0.7); }
+  .foot-links a { font-size: 14.5px; color: rgba(251,244,239,0.8); }
+  .crumbs { font-size: 14px; }
+  @media (max-width: 700px) {
+    .section-intro { font-size: 18.5px; }
+    .trust p { font-size: 17px; }
+    .servico p { font-size: 16.5px; }
+    .hero-tagline { font-size: 22px; }
+    .rcard blockquote { font-size: 22px; }
+    .faq details p, .prose p { font-size: 18px; }
+    .btn { font-size: 15px; }
+  }
+  .hero-tagline { text-wrap: balance; }

@@ -415,3 +415,32 @@
     .btn { font-size: 15px; }
   }
   .hero-tagline { text-wrap: balance; }
+/* tema bege (prévia): topo claro no bege da capa C, vinho e dourado como detalhes */
+header { background: linear-gradient(160deg, #EBD9C6 0%, #D6BB9F 100%); }
+header::before { opacity: .35; }
+.grain { opacity: .03; }
+header h1 { color: var(--ink); } header h1 em { color: var(--gold-deep); }
+.hero-tagline { color: var(--wine); }
+.hero-local { color: rgba(36,19,24,.75); }
+header .btn:not(.btn-ghost) { background: linear-gradient(135deg, var(--wine), var(--ink)); color: var(--cream); box-shadow: 0 14px 30px -10px rgba(61,23,33,.5); }
+.btn-ghost { color: var(--ink); border-color: rgba(36,19,24,.45); }
+.btn-ghost:hover { color: var(--wine); border-color: var(--wine); }
+nav:not(.scrolled) .nav-logo { color: var(--ink); }
+nav:not(.scrolled) .nav-links a { color: rgba(36,19,24,.82); }
+nav:not(.scrolled) .nav-links a:hover { color: var(--wine); }
+nav:not(.scrolled) .nav-links a::after { background: var(--wine); }
+nav:not(.scrolled) .nav-cta { background: var(--wine); color: var(--cream); box-shadow: 0 10px 22px -12px rgba(92,35,49,.8); }
+.photo-frame { box-shadow: 0 0 0 7px #FBF4EF, 0 0 0 8.5px var(--gold), 0 30px 60px -20px rgba(92,35,49,.35); }
+.sobre { background: linear-gradient(160deg, #F6E9DE 0%, #EBD5C2 100%); color: var(--text); }
+.sobre h2 { color: var(--ink); }
+.sobre .section-label { color: var(--gold-deep); }
+.sobre .section-label::before, .sobre .section-label::after { background: var(--gold-deep); }
+.sobre-text p { color: var(--text); }
+.sobre .btn { background: linear-gradient(135deg, var(--wine), var(--ink)); color: var(--cream); box-shadow: 0 14px 30px -10px rgba(61,23,33,.45); }
+.cred-card { border-color: rgba(165,129,63,.55); background: rgba(255,255,255,.55); }
+.cred-num { color: var(--wine); } .cred-role { color: var(--ink); } .cred-sub { color: var(--text-soft); }
+.link-arrow.light { color: var(--wine); }
+.page-hero { background: linear-gradient(160deg, #EBD9C6 0%, #D6BB9F 100%); }
+.page-hero h1 { color: var(--ink); } .page-hero .lead { color: var(--wine); }
+.crumbs { color: rgba(36,19,24,.7); } .crumbs a { color: var(--wine); }
+.page-hero .btn { background: linear-gradient(135deg, var(--wine), var(--ink)); color: var(--cream); }

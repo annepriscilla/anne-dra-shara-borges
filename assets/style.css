@@ -444,3 +444,13 @@ nav:not(.scrolled) .nav-cta { background: var(--wine); color: var(--cream); box-
 .page-hero h1 { color: var(--ink); } .page-hero .lead { color: var(--wine); }
 .crumbs { color: rgba(36,19,24,.7); } .crumbs a { color: var(--wine); }
 .page-hero .btn { background: linear-gradient(135deg, var(--wine), var(--ink)); color: var(--cream); }
+
+/* barra do menu ao rolar (opção B: clara com sombra) */
+nav.scrolled{background:rgba(251,244,239,.97);box-shadow:0 12px 32px -14px rgba(36,19,24,.45);border-bottom:1px solid rgba(201,168,106,.4)}
+
+/* serviços: cartões separados e centralizados (opção B) */
+.servicos-grid{display:flex!important;flex-wrap:wrap;justify-content:center;gap:22px!important;background:none!important;max-width:1100px}
+.servico{flex:0 1 calc(25% - 17px);min-width:230px;border:1px solid rgba(201,168,106,.4);border-radius:6px;box-shadow:0 18px 34px -26px rgba(36,19,24,.4)}
+.odontologia .servicos-grid{background:none!important}
+.odontologia .servico{flex-basis:calc(33.333% - 15px)}
+@media(max-width:700px){.servico,.odontologia .servico{flex:1 1 100%}}

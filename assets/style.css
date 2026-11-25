@@ -454,3 +454,6 @@ nav.scrolled{background:rgba(251,244,239,.97);box-shadow:0 12px 32px -14px rgba(
 .odontologia .servicos-grid{background:none!important}
 .odontologia .servico{flex-basis:calc(33.333% - 15px)}
 @media(max-width:700px){.servico,.odontologia .servico{flex:1 1 100%}}
+
+/* ícones dos serviços aprovados (25/11/2026) */
+.servico .icon-ring svg { width: 26px; height: 26px; }

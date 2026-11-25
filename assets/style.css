@@ -457,3 +457,4 @@ nav.scrolled{background:rgba(251,244,239,.97);box-shadow:0 12px 32px -14px rgba(
 
 /* ícones dos serviços aprovados (25/11/2026) */
 .servico .icon-ring svg { width: 26px; height: 26px; }
+.servico .icon-ring img { height: 32px; width: auto; display: block; }
